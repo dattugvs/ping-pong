@@ -1,0 +1,33 @@
+body {
+    background-color: dimgray;
+}
+
+
+canvas {
+    border: 2px solid black;    
+}
+
+.game {
+    position: absolute;
+    margin :auto;
+    top:0;
+    right:0;
+    left:0;
+    bottom:0;
+    width: 600px;
+    height: 450px;
+}
+
+.players {
+    width: 300px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.player1 {
+    float: left;
+}
+
+.player2 {
+    float: right;
+}
